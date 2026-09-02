@@ -14,7 +14,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="w-full bg-[#071b55] text-white relative z-50 shadow-md">
+    <nav className="sticky top-0 z-50 w-full bg-[#071b55] text-white shadow-md">
 
       {/* ================= MAIN NAVBAR ================= */}
       <div className="w-full min-h-[75px] md:min-h-[82px] px-5 sm:px-7 md:px-10 lg:px-12 flex items-center">
@@ -41,7 +41,6 @@ const Navbar = () => {
                 transition-transform
                 duration-300
                 hover:scale-105
-                z-index-100
               "
             />
           </a>
